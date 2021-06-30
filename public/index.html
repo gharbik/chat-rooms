@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/script.js"></script>
+    <script>
+    </script>
+  </head>
+  <body>
+    <p>
+      <select id="selectionSalon">
+        <option value="">-- Choisissez 1 Salon --</option>
+        <option value="salon-1">Salon 1</option>
+        <option value="salon-2">Salon 2</option>
+        <option value="salon-3">Salon 3</option>
+      </select>
+    </p>
+    <form id="formulaire">
+      <p><label for="pseudonyme">Pseudonyme :</label></p>
+      <p><input type="text" name="pseudonyme" id="pseudonyme"/></p>
+      <p><label for="message">Message :</label></p>
+      <p><input type="text" name="message" id="message"/></p>
+      <p><input type="submit" value="Envoyer"/></p>
+    </form>
+    <h2>Salon</h2>
+    <div id="salon"></div>
+  </body>
+</html>
