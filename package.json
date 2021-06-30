@@ -16,9 +16,7 @@
     "pug": "^3.0.2",
     "randomcolor": "^0.6.2",
     "socketio": "^1.0.0",
-    "unique-string": "^2.0.0"
-  },
-  "devDependencies": {
+    "unique-string": "^2.0.0",
     "nodemon": "^2.0.9"
   }
 }
