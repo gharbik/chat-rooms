@@ -15,7 +15,8 @@ app.get('/', ( request, response, next ) => {
   return response.sendFile(path.normalize(`${__dirname}/public/index.html`));
 });
 
-const server = app.listen(8888, () => {
+let port = process.env.PORT || 8888;
+const server = app.listen(port, () => {
   console.log('HTTP server started on 8888');
 })
 
